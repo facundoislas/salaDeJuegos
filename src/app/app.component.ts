@@ -15,7 +15,10 @@ export class AppComponent {
 
   constructor(){}
 
-  ngOnInit() {}
+  ngOnInit() {
+
+    //localStorage.setItem("numero1","Facu");
+  }
   
   calcular(){
     this.resultadoSuma= this.edadUno + this.edadDos;
@@ -28,7 +31,7 @@ export class AppComponent {
     this.edadUno=null;
     this.edadDos=null;
     this.resultadoProm=null;
-    this.resultadoSuma=null;
+    this.resultadoSuma=null; 
   }
 
 
