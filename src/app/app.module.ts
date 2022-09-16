@@ -17,6 +17,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 import { AuthService } from './servicios/auth.service';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFirestore, AngularFirestoreModule } from '@angular/fire/firestore';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     RegistroComponent,
     CabeceraComponent,
     FooterComponent,
-    MenuPrincipalComponent
+    MenuPrincipalComponent,
     
   ],
   imports: [
@@ -39,7 +40,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    AngularFirestoreModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
