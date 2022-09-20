@@ -22,4 +22,12 @@ export class AuthService {
     this.auth.signOut().then(()=>{
       // hemos salido
     })}
+
+    registerUser(email:string, password:string){
+      return this.auth.createUserWithEmailAndPassword( email, password)
+      .then((res)=>{
+       console.log("el usuario se ha creado exitosamente")
+      })
+      .catch(err=>Promise.reject(err))
+   }
 }

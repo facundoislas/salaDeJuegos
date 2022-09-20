@@ -350,6 +350,13 @@ ol {
 .user-panel a {
 	color: rgb(255, 251, 4);
 	text-align: center;
+	text-decoration: none;
+}
+
+.user-panel p {
+	color: rgb(255, 251, 4);
+	text-align: center;
+	text-decoration: none;
 }
 
 .user-panel a:hover {
@@ -359,8 +366,8 @@ ol {
 .main-menu {
 	list-style: none;
 	text-align: center;
-	padding-top: 25px;
-	display:inline;
+	padding-top: 15px;
+	/*display:inline;*/
 }
 
 .main-menu li {
@@ -372,11 +379,13 @@ ol {
 	display: block;
 	font-size: 30px;
 	font-weight: 500;
-	color: rgb(41, 250, 14);
+	color: rgb(41, 236, 2);
 	margin-right: 10px;
 	padding-bottom: 20px;
 	position: relative;
 	padding-right: 20px;
+	border: #000;
+	text-decoration:none
 }
 
 .main-menu li a:after {
@@ -388,6 +397,7 @@ ol {
 
 	background-repeat: no-repeat;
 	background-position: right center;
+	text-decoration:none
 }
 
 .main-menu li a i {

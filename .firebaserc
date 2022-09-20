@@ -1,14 +1,5 @@
 {
   "projects": {
     "default": "cursada-2022"
-  },
-  "targets": {
-    "cursada-2022": {
-      "hosting": {
-        "salaDeJuegos": [
-          "cursada-2022"
-        ]
-      }
-    }
   }
 }

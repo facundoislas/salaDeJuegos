@@ -13,7 +13,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fa fa-user"></i></span>
                 </div>
-                <input type="text" placeholder="Usuario" class="form-control" [(ngModel)]="this.user.email"  name="uname" required>
+                <input type="text" placeholder="Usuario" class="form-control" [(ngModel)]="this.usuario.email"  name="uname" required>
                         
                             
                         </div>
@@ -21,7 +21,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fa fa-key"></i></span>
                 </div>
-                <input type="password" placeholder="Clave" class="form-control"  [(ngModel)]="this.user.password" name="psw" required>
+                <input type="password" placeholder="Clave" class="form-control"  [(ngModel)]="this.usuario.clave" name="psw" required>
                         
                         </div>
                         <div class="form-group" *ngIf="logeando">
@@ -43,5 +43,7 @@
             </div>
       </div>
       <div>
+        <div id="snackbar">{{Mensaje}}</div>
+
       </div>
     </div>

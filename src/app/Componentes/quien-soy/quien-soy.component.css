@@ -44,9 +44,9 @@ p {font-size: 16px;}
 */
 .fondo{
 
-    /*background-image: url(".../../../docs/assets/imagenes/slider-bg-2.jpg");
-    margin-top: -60px;*/
-    background-color: black;
+    background: url("/assets/imagenes/slider-bg-2.jpg");
+    margin-top: -60px;
+   
   }
   
 body {
